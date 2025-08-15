@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Skills Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Web Skills Test</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Students</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Student List (3)</h2>
+        <table>
+            <tr><th>Name</th><th>Age</th><th>Skill</th></tr>
+            <tr><td>Alice</td><td>20</td><td>HTML</td></tr>
+            <tr><td>Bob</td><td>22</td><td>CSS</td></tr>
+            <tr><td>Charlie</td><td>21</td><td>JavaScript</td></tr>
+        </table>
+    </section>
+
+    <section>
+        <h3>Add Student</h3>
+        <form id="studentForm">
+            <input type="text" placeholder="Name">
+            <input type="number" placeholder="Age">
+            <input type="text" placeholder="Skill">
+            <button type="submit">Add Student</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <form>
+            <label>Name: <input type="text" name="name"></label>
+            <label>Email: <input type="email" name="email"></label>
+            <label>Message: <textarea name="message"></textarea></label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Previous Submissions</h2>
+        <button id="themeToggle">Change Theme</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Student Skills Test</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
